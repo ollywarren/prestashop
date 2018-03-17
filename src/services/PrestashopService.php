@@ -28,7 +28,7 @@ class PrestashopService
 		$this->url               = config('prestashop.url');
         $this->key               = config('prestashop.key');
         $this->debug             = config('prestashop.debug');
-        $this->client            = new \PrestaShopWebservice($this->url, $this->key);
+        $this->client            = new \PrestaShopWebservice($this->url, $this->key, $this->debug);
 	}
 
     /**
