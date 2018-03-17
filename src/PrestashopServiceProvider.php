@@ -3,7 +3,7 @@
 namespace Ollywarren\Prestashop;
 
 use Illuminate\Support\ServiceProvider;
-use Ollywarren\Prestawoo\Services\PrestashopService;
+use Ollywarren\Prestashop\Services\PrestashopService;
 
 class PrestashopServiceProvider extends ServiceProvider
 {
