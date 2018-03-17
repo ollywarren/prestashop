@@ -27,7 +27,7 @@ class PrestashopService
         // Required Settings
 		$this->url               = config('prestashop.url');
         $this->consumer_key      = config('prestashop.key');
-        $this->client            = new \PrestaShopWebservice;
+        $this->client            = new \PrestaShopWebservice($this->url, $this->key);
 	}
 
     /**
