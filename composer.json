@@ -1,6 +1,6 @@
 {
-    "name": "ollywarren/larawoo",
-    "description": "Provide a simple elegant wrapper around the Woocommerce APi Library from Automattic.",
+    "name": "ollywarren/prestashop-laravel",
+    "description": "Provide a simple elegant wrapper around the Prestashop APi Library from Prestashop.",
     "keywords": ["Laravel", "Prestashop"],
     "homepage": "http://github.com/ollywarren/prestashop",
     "license": "MIT",
@@ -17,17 +17,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Ollywarren\\Larawoo\\": "src/"
+            "Ollywarren\\Prestashop\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ollywarren\\Larawoo\\LarawooServiceProvider"
+                "Ollywarren\\Prestashop\\PrestashopServiceProvider"
             ],
 
             "facades": [
-                "Ollywarren\\Larawoo\\Facades\\Larawoo"
+                "Ollywarren\\Prestashop\\Facades\\Prestashop"
             ]
         }
     },

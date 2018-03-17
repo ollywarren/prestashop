@@ -9,7 +9,7 @@ This project started after the need to migrate a Clients Prestashop install over
 Just use composer to drop this package in and let Auto Discover do its wonderful thing!
 
 ```bash
-composer require ollywarren/prestawoo
+composer require ollywarren/prestashop
 ```
 
 Publish the vendor configuration:
@@ -64,18 +64,7 @@ PRESTASHOP_KEY="<YOUR KEY>"
 
 ### Usage Instructions
 
-The included helper method makes accessing the underlying methods as easy as:
-
-```php 
-$results = prestashop()->get('customers');
-// ['customers' => [[ 'id' => 8, 'created_at' => '2015-05-06T17:43:51Z', 'email' => ...
-```
-Or With the Facade if youd prefer
-
-```php 
-$results = Prestashop::get('customers');
-// ['customers' => [[ 'id' => 8, 'created_at' => '2015-05-06T17:43:51Z', 'email' => ...
-```
+The included helper method makes accessing the underlying methods as easy as.
 
 
 
